@@ -89,7 +89,12 @@ print (allCatNames[15:])
 allCatNames = "Cheetah, Sorbet, Faith"
 print (allCatNames[-10:])
 
+# using the upper method
 allCatNames = "Cheetah, Sorbet, Faith"
+
+#Assigning the upper method to a variable
 rescueCatNames = allCatNames.upper()
 print (rescueCatNames)
 
+#Assigning the upper method to the current variable
+print (allCatNames.upper())
