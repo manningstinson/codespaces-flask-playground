@@ -75,10 +75,21 @@ catName1 = "Cheetah"
 catName2 = "Sorbet"
 catName3 = "Faith"
 
-# Concatenating strings
+# Concatenating strings & slicing strings
 # Finding the position of a word in a string
 allCatNames = "Cheetah, Sorbet, Faith"
 print (allCatNames[0:7])
 
+allCatNames = "Cheetah, Sorbet, Faith"
+print (allCatNames[0:20:3])
 
+allCatNames = "Cheetah, Sorbet, Faith"
+print (allCatNames[15:])
+
+allCatNames = "Cheetah, Sorbet, Faith"
+print (allCatNames[-10:])
+
+allCatNames = "Cheetah, Sorbet, Faith"
+rescueCatNames = allCatNames.upper()
+print (rescueCatNames)
 
