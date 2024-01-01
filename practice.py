@@ -98,3 +98,17 @@ print (rescueCatNames)
 
 #Assigning the upper method to the current variable
 print (allCatNames.upper())
+
+#using the lower method
+print (allCatNames.lower())
+
+#using the capitalize method
+print (allCatNames.capitalize())
+
+# using the title method
+print (allCatNames.title())
+
+# swapping the case of the string
+print (allCatNames.swapcase()) 
+
+
