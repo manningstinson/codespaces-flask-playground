@@ -54,7 +54,6 @@ fullname = f"{firstName} {lastName}"
 print (fullname)  
 print (bio)
 
-
 # printing with an escape character
 print ("Hello\nWorld") 
 
@@ -69,5 +68,17 @@ print (fullname[-1])
 
 # finding the length of a string
 print (len(fullname))
+
+print (fullname[0])
+
+catName1 = "Cheetah"
+catName2 = "Sorbet"
+catName3 = "Faith"
+
+# Concatenating strings
+# Finding the position of a word in a string
+allCatNames = "Cheetah, Sorbet, Faith"
+print (allCatNames[0:7])
+
 
 
