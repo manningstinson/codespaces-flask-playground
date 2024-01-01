@@ -61,5 +61,13 @@ print ("Hello\nWorld")
 # printing with a tab
 print ("Hello\tWorld")
 
+#finding position of a character
+print (fullname[0])
+
+# finding the last character 
+print (fullname[-1])
+
+# finding the length of a string
+print (len(fullname))
 
 
