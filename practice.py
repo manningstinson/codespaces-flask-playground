@@ -109,6 +109,11 @@ print (allCatNames.capitalize())
 print (allCatNames.title())
 
 # swapping the case of the string
-print (allCatNames.swapcase()) 
+print (allCatNames.swapcase())
+
+# Using is digit method - returns boolean value
+print (allCatNames.isdigit())
+
+
 
 
